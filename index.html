@@ -3,31 +3,32 @@
 <head>
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.4.8/angular.min.js"></script>
+    <script defer src="https://use.fontawesome.com/releases/v5.0.4/js/all.js"></script>
     <link rel="stylesheet" href="css/main.css">
-    <meta charset="UTF-8">
-    <title>Mengjia Wang</title>
+    <title>Irene Wang</title>
 </head>
 <style>
-    .navbar-nav li a:hover {
+    .nav>li>a:hover {
         color: #fff ;
     }
 </style>
 <body>
     <nav class="navbar navbar-default navbar-fixed-top">
-        <ul class="nav navbar-nav navbar-right">
-            <li><a href="#home">HOME</a></li>
+        <ul class="nav navbar-nav navbar-right">
+            <li><a href="#home">HOME</a></li>
             <li><a href="#skills">SKILLS</a></li>
-            <li><a href="#hobby">HOBBY</a></li>
-            <li><a href="#projects">PROJECTS</a></li>
-            <li><a href="#contact">CONTACT</a></li>
-        </ul>
+            <li><a href="#hobby">HOBBY</a></li>
+            <li><a href="#projects">PROJECTS</a></li>
+            <li><a href="#contact" style="padding-right: 45px;">CONTACT</a></li>
+        </ul>
     </nav>
     <div id="home" class="container text-center">
         <img src="img/code.png" style="width:300px">
         <h1>THIS IS ME</h1>
-        <h3>I am a final year Interactive System Design Student!</>
+        <h3>I am a final year Interactive System Design Student!</h3>
         <h3>Find out more about me in this page!</h3>
     </div>
 
@@ -53,6 +54,7 @@
                 <img src="img/c%23.jpg">
             </div>
         </div>
+        <div class="clear"></div>
     </div>
 
     <div id="hobby" class="container text-center">
@@ -77,6 +79,7 @@
                 <img src="img/drawing.png">
             </div>
         </div>
+        <div class="clear"></div>
     </div>
 
     <div id="projects" class="container text-center">
@@ -84,30 +87,39 @@
         <br><br><br>
         <div class="row">
             <div class="col-sm-4">
-                <a href="https://homepage.usask.ca/~mew497"><img src="img/Screenshot%20(5).png" style="width:250px"></a>
-            </div>
-        </div>
-        <div class="row">
-            <div class="col-sm-6">
+                <img src="img/Screenshot%20(5).png" style="width:250px">
                 <h4>Cloud Disk</h4>
                 <p>A solo project based on concept from OneDrive and Google Drive.</p>
                 <p>Writing in HTML, JQuery, CSS and raw php.</p>
-                <br>
-                <p>PS: Because the university homepage system doesn't allow to write file therefore the sign up doesn't work</p>
-
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-sm-4">
+                <img src="img/volunteerize.png">
+                <h4>Volunteerize</h4>
+                <p>A group project of Software Engineering course.</p>
+                <p>Volunteer management software.</p>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-sm-4">
+                <img src="img/game.jpg">
+                <h4>Beatrice's Hat</h4>
+                <p>A group project of Game Develop course.</p>
+                <p>Traditional 2D Platform Game.</p>
             </div>
         </div>
         <div class="clear"></div>
     </div>
     </div>
-
-
     <div id="contact" class="container text-center">
-        <h3 class="text-center">Contact</h3>
-        <p><span class="glyphicon glyphicon-map-marker"></span>Saskatoon, SK</p>
-        <p><span class="glyphicon glyphicon-phone"></span>Phone: +1 3062417828</p>
-        <p><span class="glyphicon glyphicon-envelope"></span>Email: mengjia.wang@usask.com</p>
-        <a href="https://www.linkedin.com/in/irene-wang-00b0b7118/"><p><span class="glyphicon glyphicon-linkedin"></span>LinkedIn: Mengjia Wang</p></a>
+        <div class="box">
+            <h3 class="text-center">Contact</h3>
+            <p><span class="glyphicon glyphicon-phone"></span>+1 3062417828</p>
+            <p><span class="glyphicon glyphicon-envelope"></span> mengjia.wang@usask.ca</p>
+            <i class="fab fa-linkedin" style="font-size:20px"></i>
+            <a href="https://www.linkedin.com/in/cchesheng/">Irene Wang</a>
+        </div>
     </div>
 
 

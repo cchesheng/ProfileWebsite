@@ -1,14 +1,22 @@
 a{
     text-decoration: none;
+
 }
 .clear{
     clear: both;
 }
 
-.container{
-    padding: 80px 120px;
+#home
+{
+    background: url('../img/banner.jpg') ;
+    background-size: cover;
+    background-position: bottom;
 }
-.col-sm-4 img{
+.container{
+    padding: 100px 120px;
+    width:100%;
+}
+.col-sm-4 img, .col-sm-3 img{
     width:200px;
 }
 .btn-group-vertical > .btn-group::after, .btn-toolbar::after, .clearfix::after, .container-fluid::after, .container::after, .dl-horizontal dd::after, .form-horizontal .form-group::after, .modal-footer::after, .modal-header::after, .nav::after, .navbar-collapse::after, .navbar-header::after, .navbar::after, .pager::after, .panel-body::after, .row::after {
@@ -33,23 +41,35 @@ a{
     opacity:0.8;
 }
 
-/* Add a gray color to all navbar links */
-.navbar li a, .navbar .navbar-brand {
+.navbar-default .navbar-nav>li>a{
+    font-size:15px;
     color: #d5d5d5;
+    transition: 0.3s;
 }
 
-/* On hover, the links will turn white */
-.navbar-nav li a:hover {
-    color: #fff ;
-}
-
-/* The active link */
-.navbar-nav li.active a {
-    color: #fff;
-    background-color:#29292c;
+.navbar-default .navbar-nav>li>a:hover{
+    color: #ffffff;
 }
 
 /* Remove border color from the collapsible button */
 .navbar-default .navbar-toggle {
     border-color: transparent;
+}
+#hobby{
+    background-image: url("../img/bg.jpg");
+    background-repeat: no-repeat;
+
+    background-size:cover;
+}
+#contact{
+    background-image: url("../img/leaf3.jpg");
+    background-position: bottom;
+    background-size:cover;
+    height:350px;
+}
+.box{
+    width: 20%;
+    margin:auto;
+    padding: 10px 0px 20px 0px;
+    background-color:white;
 }
