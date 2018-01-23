@@ -73,3 +73,17 @@ a{
     padding: 10px 0px 20px 0px;
     background-color:white;
 }
+#projects img{
+    height: 250px;
+    width:250px;
+}
+.projectName{
+    font-size: 60px;
+}
+.narrow-text{
+    width:40%;
+    text-align: left;
+}
+.projectContainer img{
+    padding:20px 0 ;
+}
