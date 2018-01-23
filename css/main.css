@@ -94,3 +94,6 @@ a{
     -o-transform: rotate(90deg);
     transform: rotate(90deg);
 }
+.verticalPic img{
+    width:500px;
+}
